@@ -1,13 +1,12 @@
 package com.Pattern;
 
-public class PatternThree {
+public class Pattern4 {
     public static void main(String[] args) {
         for (int y = 1; y <= 5; y++) {
-            for (int x = 1; x <=6-y  ; x++) {
-                System.out.print("*");
+            for (int x = 1; x <=y  ; x++) {
+                System.out.print(x+" ");
             }
             System.out.println();
         }
-
     }
 }

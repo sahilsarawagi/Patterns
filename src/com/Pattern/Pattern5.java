@@ -1,6 +1,6 @@
 package com.Pattern;
 
-public class PatternFive {
+public class Pattern5 {
     public static void main(String[] args) {
         int n=5;
         for (int y = 1; y <= 2*n-1; y++) {

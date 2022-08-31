@@ -1,9 +1,9 @@
 package com.Pattern;
 
-public class PatternTwo{
+public class Pattern1 {
     public static void main(String[] args) {
-        for (int y = 1; y <= 5; y++) {
-            for (int x = 1; x <=y  ; x++) {
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
                 System.out.print("*");
             }
             System.out.println();
